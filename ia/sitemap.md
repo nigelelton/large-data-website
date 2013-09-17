@@ -1,0 +1,23 @@
+# Beer
+- Home
+- Brewing
+	- Ingredients
+		- Malt
+		- Hops
+		- Wheat
+- Types
+	- Ale
+		- Pale Ale
+		- Golden Ale
+		- Old Ale 
+	- Lager
+	- Wheat Beer
+	- Stout
+	- Mead
+- Storage
+	- Bottle
+	- Draught
+	- Cask
+	- Keg
+
+---
