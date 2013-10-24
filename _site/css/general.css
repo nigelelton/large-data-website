@@ -1,0 +1,109 @@
+
+hmtl {
+	margin:0;
+	padding:0;
+	background-image:url(../images/ricepaper2.png);
+	background-repeat:repeat;
+}
+
+h1 {
+	text-align:center;
+	padding:0 0 10% 0;
+	margin:0;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color:#cc9966;
+	margin:0;
+}
+
+h3 {
+	color:#691111;
+}
+
+.nav {
+	padding-bottom:5%
+}
+
+nav ul {
+	list-style-type:none;
+	text-align:end;
+	background-color:#691111;
+	width:100%;
+	padding:5px;
+	height:2.4em;
+}
+
+nav li {
+	display: inline-block;
+	vertical-align:middle;
+}
+
+
+nav a {
+	display: inline;
+	text-decoration: none;
+
+	color:#FFF;
+	font-family: 'Lobster', cursive;
+	padding: 5px;
+}
+
+a.nav-link:link {
+color: #fff;
+text-decoration : none;
+}
+a.nav-link:visited {
+color: #fff;
+text-decoration : none;
+}
+a.nav-link:hover {
+color: #cc9966; 
+text-decoration : none;
+}
+a.nav-link:active {
+color : #cc9966;
+text-decoration : none;
+}
+
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+
+@media only screen and (min-width: 26em) {
+html {
+	padding:0 20px 0 20px;
+}
+
+.grid {
+	padding-top:3%;
+
+}
+
+@media only screen and (min-width:40em) {
+
+
+
+@media only screen and (min-width: 60em) {
+body {
+	font-size:1.2em;
+}
+}
+
+
+@media only screen and (min-width: 70em) {
+
+body {
+	font-size:1.2rem;
+	padding:0 50px 0 50px;
+
+}
+}
