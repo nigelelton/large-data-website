@@ -5,6 +5,7 @@
 	<title>SudBud - Beer Facts and Knowledge</title>
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/general.css" rel="stylesheet">
+	<link href="css/skiplink.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width;initial-scale=1">
@@ -28,13 +29,20 @@
 	<meta name="description" content="Whether you've only had one pint or you're a coniseuor of ales, delve deep into our site and learn what makes beer, well, beer.">
 </head>
 
-<body>
-	
-		<main role="main" id="main">
-		<h1><img src="images/logo.svg" alt="Sudbud"></h1>
-		</main>
-		
-			<nav class="nav" id="navigation">
+<body id="top">
+
+	<ul class="skiplinks">
+		<li><a href="#main">Skip to primary content</a></li>
+		<li><a href="#complementary">Skip to secondary content</a></li>
+		<li><a href="#navigation">Skip to navigation content</a></li>
+	</ul>
+
+<header role="banner">
+
+	<h1><img src="images/logo.svg" alt="Sudbud"></h1>
+
+
+			<nav class="nav" role="navigation" id="navigation">
 			<ul>
 				<li><a href="index.html" class="nav-link">Home</a></li>
 				<li><a href="brewing.html" class="nav-link">Brewing</a></li>
@@ -43,10 +51,10 @@
 			</ul>
 			</nav>
 
-	<aside role="complementary" id"complementary">
+</header>
+
 	<h2>The Facts & Knowledge On Everything Beer.</h2>
 	<h3>From brewing to kegging, this site covers the various types, techniques and brands that make beer one of the most profitable industries in the world. Whether you've only had one pint or you're a coniseuor of ales, delve deep into our site and learn what makes beer, beer.</h3>
-	</aside>
 
 		<div class="grid">
 			<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
@@ -78,6 +86,11 @@
 </html>
 
 
+<footer>
+	<!-- Content info defines things like copyright, privacy, terms of use !-->
+	<p role="contentinfo">© SudBud</p>
+	<a href="#top">Top</a>
+</footer>
 
 </body>
 </html>
